@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1B2631;
+    color: #1B2631;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #F0F4F8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.header button {
+    background-color: #3F4E4F;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.header button:hover {
+    background-color: #1B2631;
+}
+
+.profile {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.profile img {
+    display: block;
+    margin-top: 120px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile h2 {
+    font-size: 2em;
+    margin: 20px 0 10px;
+}
+
+.profile p {
+    font-size: 1.1em;
+    color: #1B2631;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.content h3 {
+    font-size: 1.5em;
+}
+
+.content ul {
+    margin-bottom: 10px;
+}
+
+.content ul li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.education, .experience, .organization {
+    margin-top: 40px;
+}
+
+.education h3, .experience h3, .organization h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.education h3::before, .experience h3::before, .organization h3::before {
+    content: '\1F393';
+    margin-right: 10px;
+}
+
+.experience h3::before {
+    content: '\1F3E2';
+}
+
+.organization h3::before {
+    content: '\1F310';
+}
+
+.education .entry, .experience .entry, .organization .entry {
+    margin-top: 20px;
+    padding: 10px;
+    background: #D9E4E0;
+    border-radius: 8px;
+}
+
+.education .entry h4, .experience .entry h4, .organization .entry h4 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.education .entry p, .experience .entry p, .organization .entry p {
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.activity, .achievement {
+    margin-top: 40px;
+}
+
+.activity h3::before {
+    content: '\1F4E3';
+}
+
+.achievement h3::before {
+    content: '\1F3C6';
+}
+
+.activity h3, .achievement h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.activity .entry, .achievement .entry {
+    margin-top: 20px;
+    padding: 10px;
+    background: #D9E4E0;
+    border-radius: 8px;
+}
+
+.activity .entry h4, .achievement .entry h4 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.activity .entry p, .achievement .entry p {
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1B2631;
+    font-family: Arial, sans-serif;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F0F4F8;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #F0F4F8;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+}
+
+.footer-icons {
+    margin-top: 15px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #F0F4F8;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff
+}

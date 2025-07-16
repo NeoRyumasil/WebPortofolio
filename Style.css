@@ -108,7 +108,15 @@ body {
     content: '\1F310';
 }
 
-.education .entry, .experience .entry, .organization .entry {
+.Games h3::before {
+    content: '\1F3AE';
+}
+
+.Games a{
+    color: #1B2631;
+}
+
+.education .entry, .experience .entry, .organization .entry, .Games .entry {
     margin-top: 20px;
     padding: 10px;
     background: #D9E4E0;
@@ -137,7 +145,7 @@ body {
     content: '\1F3C6';
 }
 
-.activity h3, .achievement h3 {
+.activity h3, .achievement h3, .Games h3 {
     display: flex;
     align-items: center;
     font-size: 1.8em;

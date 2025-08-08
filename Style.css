@@ -180,7 +180,8 @@ body {
 
 
 .view-btn:hover {
-    background-color: #e91e63;
+    background-color: #3F4E4F;
+    color: white;
 }
 
 .education .entry, .experience .entry, .organization .entry, .Games .entry {

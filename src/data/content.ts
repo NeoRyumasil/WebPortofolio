@@ -2,8 +2,8 @@ export const profileData = {
     name: "Muhammad Alvin Ababil",
     role: "Mahasiswa S-1 Informatika",
     desc: "Saya memiliki ketertarikan dalam bidang IT terutama game developing, IoT, robotik, dan Artificial Intelligence. Saya memiliki pengalaman di bidang programming dan networking saat bersekolah di SMK Telkom Banjarbaru. Saya seorang yang belajar dengan cepat, memiliki kemampuan problem solving dan berpikir logis yang baik, memiliki motivasi diri, dan dapat bekerja sama dengan baik dalam tim.",
-    cvLink: "/components/Datas/CV_MUHAMMAD_ALVIN_ABABIL.pdf",
-    imageSrc: "/components/Datas/Profile_Picture.jpeg",
+    cvLink: "/Datas/CV_MUHAMMAD_ALVIN_ABABIL.pdf",
+    imageSrc: "/Datas/Profile_Picture.jpeg",
 }
 
 export const educationData = [
@@ -76,22 +76,22 @@ export const organizationData = [
 export const gamePortfolioData = [
     {
         title: "Acumalaka Adventure",
-        imageSrc: "/components/Datas/GameCards/Acumalaka.png",
+        imageSrc: "/Datas/GameCards/Acumalaka.png",
         link: "https://neoryumasil.itch.io/acumalaka-adventure"
     },
     {
         title: "Tower Bloxx",
-        imageSrc: "/components/Datas/GameCards/TowerBloxx.png",
+        imageSrc: "/Datas/GameCards/TowerBloxx.png",
         link: "https://neoryumasil.itch.io/tower-bloxx"
     },
     {
         title: "Aku Butuh Dugem : Most Horeg",
-        imageSrc: "/components/Datas/GameCards/AkuButuhDugemMostHoreg.png",
+        imageSrc: "/Datas/GameCards/AkuButuhDugemMostHoreg.png",
         link: "https://neoryumasil.itch.io/aku-butuh-dugem-most-horeg"
     },
     {
         title: "Splitted Realms",
-        imageSrc: "/components/Datas/GameCards/SplittedRealms.png",
+        imageSrc: "/Datas/GameCards/SplittedRealms.png",
         link: "https://veromator.itch.io/splitet"
     }
 ];

@@ -22,8 +22,8 @@ export default function HeroSection() {
             </div>
 
             {/* Profile Section */}
-            <div className="text-justify mt-5">
-                <div className="flex justify-center mt-8 mb-5">
+            <div className="flex justify-center mt-8 mb-5">
+                <div className="relative h-[150px] w-[150px] rounded-full overflow-hidden border-4 border-[#3F4E4F]">
                     <Image
                         src={profileData.imageSrc}
                         alt="Foto Profil"

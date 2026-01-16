@@ -82,7 +82,7 @@ export const gamePortfolioData = [
     {
         title: "Tower Bloxx",
         imageSrc: "/Datas/GameCards/TowerBloxx.png",
-        link: "https://neoryumasil.itch.io/tower-bloxx"
+        link: "https://neoryumasil.itch.io/towerbloxx"
     },
     {
         title: "Aku Butuh Dugem : Most Horeg",

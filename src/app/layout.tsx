@@ -15,7 +15,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
-      <body className={`${interFont.className} bg-[#1B2631] text-white min-h-screen`}>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Muhammad Alvin Ababil - Web Portofolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
+      </head>
+      <body className={`${interFont.className} bg-[#1B2631] text-[#1B2631] min-h-screen`}>
         {children}
       </body>
     </html>

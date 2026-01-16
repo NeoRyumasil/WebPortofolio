@@ -30,9 +30,9 @@ export default function Home() {
           <SectionTitle icon="🎓" title="Pendidikan" />
           {educationData.map((edu, index) => (
             <InfoCard key={index}>
-              <h4 className="font-bold text-lg">{edu.title}</h4>
+              <h4 className="font-bold text-lg text-[#1B2631]">{edu.title}</h4>
               <p className="text-sm text-gray-700">{edu.institution}</p>
-              <p className="text-xs font-medium">{edu.year}</p>
+              <p className="text-xs font-medium text-gray-600">{edu.year}</p>
             </InfoCard>
           ))}
 
@@ -40,10 +40,8 @@ export default function Home() {
           <SectionTitle icon="💼" title="Pengalaman" />
           {experienceData.map((exp, index) => (
             <InfoCard key={index}>
-              <ul className="list-disc ml-5">
-                <li className="font-bold text-lg">{exp.role}, {exp.place}</li>
-              </ul>
-              <p className="text-sm italic mb-2 mt-1">{exp.duration}</p>
+              <h4 className="font-bold text-lg text-[#1B2631]">{exp.role}, {exp.place}</h4>
+              <p className="text-sm text-gray-700 italic mb-2 mt-1">{exp.duration}</p>
               <p className="text-gray-800">{exp.desc}</p>
             </InfoCard>
           ))}
@@ -52,10 +50,8 @@ export default function Home() {
           <SectionTitle icon="🤝" title="Organisasi" />
           {organizationData.map((org, index) => (
             <InfoCard key={index}>
-              <ul className="list-disc ml-5">
-                <li className="font-bold text-lg">{org.role}, {org.organization}</li>
-              </ul>
-              <p className="text-sm italic mb-2 mt-1">{org.duration}</p>
+              <h4 className="font-bold text-lg text-[#1B2631]">{org.role}, {org.organization}</h4>
+              <p className="text-sm text-gray-700 italic mb-2 mt-1">{org.duration}</p>
               <p className="text-gray-800">{org.desc}</p>
             </InfoCard>
           ))}
@@ -73,7 +69,9 @@ export default function Home() {
           <InfoCard>
             <ul className="list-disc ml-5 space-y-2">
               {achievementsData.map((acv, index) => (
-                <li key={index}>{acv}</li>
+                <li key={index} className="text-gray-800">
+                  {acv}
+                </li>
               ))}
             </ul>
           </InfoCard>

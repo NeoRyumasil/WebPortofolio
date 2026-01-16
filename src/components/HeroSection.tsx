@@ -8,7 +8,7 @@ export default function HeroSection() {
         <div>
             {/* Header Section */}
             <div className="flex justify-between items-center mb-8">
-                <h1 className="text-2xl font-bold m-0">
+                <h1 className="text-2xl text-[#1B2631] font-bold m-0">
                     Muhammad Alvin Ababil
                 </h1>
 
@@ -33,10 +33,10 @@ export default function HeroSection() {
                 </div>
             </div>
 
-            <h2 className="text-3xl font-bold mb-2 text-center">
+            <h2 className="text-3xl text-[#1B2631] font-bold mb-2 text-center">
                 Halo, Saya {profileData.name}!
             </h2>
-            <p className="text-lg text-[#1B2631]">
+            <p className="text-lg text-[#1B2631] text-justify">
                 {profileData.desc}
             </p>
         </div>

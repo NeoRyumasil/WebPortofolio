@@ -77,7 +77,6 @@ export default function Home() {
           </InfoCard>
         </div>
         
-        
         {/* Footer */}
         <footer className="bg-[#1B2631] text-[#F0F4F8] text-center p-8 mt-10">
           <p className="text-xl font-bold mb-4">Muhammad Alvin Ababil</p>

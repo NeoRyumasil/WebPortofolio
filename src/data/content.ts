@@ -45,31 +45,31 @@ export const organizationData = [
         role: "Member",
         organization: "Advanced Software Engineering Laboratory Universitas Telkom",
         duration: "2024 - Sekarang",
-        desc: "Bergabung dalam laboratorium riset yang berfokus pada pengembangan perangkat lunak dan game." 
+        desc: "Advanced Software Engineering Laboratory adalah salah satu laboratorium fakultas informatika Universitas Telkom yang berfokus pada pengembangan perangkat lunak dan juga pengembagan game. Saya berperan sebagai game designer dan game programmer, dimana saya bertanggung jawab dalam mendesign game (world building dan user experience) dan melakukan pemrograman game menggunakan game engine seperti Godot dan Unity." 
     },
     {
         role: "Sekretaris Divisi Event Organizer (Nihon No Matsuri)",
         organization: "Nippon Bunka-Bu",
         duration: "2024 - Sekarang",
-        desc: "Mengorganisir acara budaya Jepang tahunan di Universitas Telkom, termasuk perencanaan, koordinasi, dan pelaksanaan acara."
+        desc: "Nippon Bunka Bu merupakan unit kegiatan mahasiswa yang berfokus pada budaya Jejepangan. Saya menjadi sekretaris divisi Nihon no Matsuri Event Organizer yang mengorganisir acara budaya Jepang tahunan di Universitas Telkom, termasuk perencanaan, koordinasi, dan pelaksanaan acara."
     },
     {
         role: "Member Divisi Machine Learning",
         organization: "Google Developer on Campus Universitas Telkom",
         duration: "2024 - 2025",
-        desc: "Mengikuti pelatihan dan proyek terkait machine learning."
+        desc: "Google Developer Student Group adalah komunitas bagi para mahasiswa yang tertarik dengan teknologi Google untuk mengembangkan suatu teknologi. Disini saya mengikuti study group machine learning yang mempelajari teori dan praktik mengenai cara mengimplementasikan machine learning."
     },
     {
         role: "Wakil Kepala Divisi Games and Gadgets",
         organization: "Central Computer Improvement",
         duration: "2023 - 2025",
-        desc: "Mengelola divisi yang berfokus pada pengembangan dan inovasi di bidang game dan gadget."
+        desc: "Central Computer Improvement adalah unit kegiatan mahasiswa di Universitas Telkom yang bergerak di bidang penalaran teknologi informasi dan komunikasi. Dimana anggota diberikan pelatihan untuk mengembangkan keterampilan dalam merancang dan melaksanakan proyek. Saya berperan sebagai wakil kepala divisi Games and Gadget, dimana saya bertanggung jawab untuk mengelola program kerja divisi agar sesuai dengan target. "
     },
     {
         role: "Staff Lapangan",
         organization: "MPK SMK Telkom Banjarbaru",
         duration: "2021 - 2022",
-        desc: "Bertanggung jawab dalam pelaksanaan kegiatan sekolah dan mendukung operasional kegiatan sekolah."
+        desc: "Majelis Perwakilan Kelas adalah organisasi yang dibuat untuk mengawasi dan membantu kinerja OSIS dalam melaksanakan program kerjanya. Saya berperan sebagaistaff lapangan, dimana Saya bertanggung jawab untuk mengawasi dan membantu OSIS ketika melaksanakan program kerja di lapangan seperti event kemerdekaan, classmeeting, dan MPLS."
     }
 ];
 

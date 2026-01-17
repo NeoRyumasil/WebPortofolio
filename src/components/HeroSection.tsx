@@ -8,11 +8,11 @@ export default function HeroSection() {
 
             {/* Header Section */}
             <h1 className="text-4xl md:text-6xl text-[#1B2631] font-black mb-6 uppercase tracking-tight">
-                Hello, I&apos;m {profileData.name}
+                Halo, Saya {profileData.name}
             </h1>
 
             {/* Subtitle Section */}
-            <p className="text-lg md:text-xl text-gray-600 max-w-3xl leading-relaxed mb-10">
+            <p className="text-lg md:text-xl text-gray-600 max-w-5xl leading-relaxed mb-10">
                 {profileData.desc}
             </p>
 

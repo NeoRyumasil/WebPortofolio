@@ -48,7 +48,7 @@ export default function Home() {
           {experienceData.map((exp, index) => (
             <InfoCard key={index}>
               <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                <h4 className="font-bold text-lg text-[#1B2631]">{exp.role}, {exp.place}</h4>
+                <h4 className="font-bold text-lg text-[#1B2631] max-w-xl">{exp.role}, {exp.place}</h4>
                 <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">{exp.duration}</span>
               </div>
               <p className="text-gray-800">{exp.desc}</p>
@@ -60,7 +60,7 @@ export default function Home() {
           {organizationData.map((org, index) => (
             <InfoCard key={index}>
               <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                <h4 className="font-bold text-lg text-[#1B2631]">{org.role}, {org.organization}</h4>
+                <h4 className="font-bold text-lg text-[#1B2631] max-w-2xl">{org.role}, {org.organization}</h4>
                 <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">{org.duration}</span>
               </div>
               <p className="text-gray-700 leading-relaxed">{org.desc}</p>

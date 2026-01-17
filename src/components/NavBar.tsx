@@ -7,19 +7,23 @@ export default function NavBar() {
             
             {/* Photo Section */}
             <div className="flex items-center gap-4">
-                <Image
+                <div className="relative h-10 w-10 sm:h-12 sm:w-12 rounded-full overflow-hidden border border-gray-200 shadow-sm shrink-0">
+                    <Image
                     src={profileData.imageSrc}
                     alt="Profile Photo"
                     fill
                     className="object-cover"
                 />
+                </div>
             </div>
-            <span className="font-bold text-lg tracking-wider text-[#1B2631] uppercase hidden sm:block">
+
+            {/* Name Section */}
+            <span className="font-bold text-lg tracking-wider text-[#1B2631] uppercase">
                 {profileData.name}
             </span>
 
             {/* Menu Button */}
-            <ul className="flex gap-6 md:gap-8 text-sm font-bold text-gray-600 tracking-wider">
+            <ul className="dhidden md:flex gap-6 md:gap-8 text-sm font-bold text-gray-600 tracking-wider">
                 <li className="hover:text-[#1B2631] cursor-pointer transition-colors">HOME</li>
                 <li className="hover:text-[#1B2631] cursor-pointer transition-colors">PENDIDIKAN</li>
                 <li className="hover:text-[#1B2631] cursor-pointer transition-colors">PORTFOLIO</li>

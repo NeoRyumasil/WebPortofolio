@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import GameCard from "@/components/GameCard";
 import { educationData, organizationData, gamePortfolioData, achievementsData, experienceData, footerData } from "@/data/content";
@@ -20,45 +21,55 @@ const InfoCard = ({children}: {children: React.ReactNode}) => (
 export default function Home() {
   return (
     <div className="min-h-screen py-10 px-4">
-      <main className="max-w-4xl mx-auto bg-[#F0F4F8] shadow-2xl rounded-xl overflow-hidden">
+
+        {/* Navigation Bar */}
+        <NavBar />
 
         {/* Hero Section */}
-        <div className="p-6 md:p-10">
-          <HeroSection />
+        <HeroSection />
+
+        {/* Main Content */}
+        <main className="max-w-4xl mx-auto px-6 pb-20">
 
           {/* Education Section */}
           <SectionTitle icon="🎓" title="Pendidikan" />
-          {educationData.map((edu, index) => (
+          <div className="space-y-4">
+            {educationData.map((edu, index) => (
             <InfoCard key={index}>
               <h4 className="font-bold text-lg text-[#1B2631]">{edu.title}</h4>
               <p className="text-sm text-gray-700">{edu.institution}</p>
               <p className="text-xs font-medium text-gray-600">{edu.year}</p>
             </InfoCard>
           ))}
+          </div>
 
           {/* Experience Section */}
           <SectionTitle icon="💼" title="Pengalaman" />
           {experienceData.map((exp, index) => (
             <InfoCard key={index}>
-              <h4 className="font-bold text-lg text-[#1B2631]">{exp.role}, {exp.place}</h4>
-              <p className="text-sm text-gray-700 italic mb-2 mt-1">{exp.duration}</p>
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                <h4 className="font-bold text-lg text-[#1B2631]">{exp.role}, {exp.place}</h4>
+                <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">{exp.duration}</span>
+              </div>
               <p className="text-gray-800">{exp.desc}</p>
             </InfoCard>
           ))}
 
           {/* Organization Section */}
-          <SectionTitle icon="🤝" title="Organisasi" />
+          <SectionTitle icon="👥" title="Organisasi" />
           {organizationData.map((org, index) => (
             <InfoCard key={index}>
-              <h4 className="font-bold text-lg text-[#1B2631]">{org.role}, {org.organization}</h4>
-              <p className="text-sm text-gray-700 italic mb-2 mt-1">{org.duration}</p>
-              <p className="text-gray-800">{org.desc}</p>
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                <h4 className="font-bold text-lg text-[#1B2631]">{org.role}, {org.organization}</h4>
+                <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">{org.duration}</span>
+              </div>
+              <p className="text-gray-700 leading-relaxed">{org.desc}</p>
             </InfoCard>
           ))}
 
           {/* Game Portfolio Section */}
           <SectionTitle icon="🎮" title="Portofolio Game" />
-          <div className="bg-[#D9E4E0] p-6 rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {gamePortfolioData.map((game, index) => (
               <GameCard key={index} {...game} />
             ))}
@@ -66,7 +77,7 @@ export default function Home() {
 
           {/* Achievements Section */}
           <SectionTitle icon="🏆" title="Prestasi" />
-          <InfoCard>
+          <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-[#1B2641]">
             <ul className="list-disc ml-5 space-y-2">
               {achievementsData.map((acv, index) => (
                 <li key={index} className="text-gray-800">
@@ -74,20 +85,18 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-          </InfoCard>
-        </div>
+          </div>
+        </main>
         
         {/* Footer */}
-        <footer className="bg-[#1B2631] text-[#F0F4F8] text-center p-8 mt-10">
-          <p className="text-xl font-bold mb-4">Muhammad Alvin Ababil</p>
-          <div className="flex justify-center space-x-6 text-3xl">
+        <footer className="bg-[#1B2631] text-[#F0F4F8] text-center p-10">
+          <p className="text-2xl font-bold mb-2 tracking-wider uppercase">Muhammad Alvin Ababil</p>
+          <div className="flex justify-center space-x-8 text-3xl">
             <a href={footerData[0].linkedinLink} target="_blank" className="hover:text-blue-500 transition-colors"><i className="bx bxl-linkedin-square"></i></a>
             <a href={footerData[0].githubLink} target="_blank" className="hover:text-gray-400 transition-colors"><i className="bx bxl-github"></i></a>
             <a href={footerData[0].youtubeLink} target="_blank" className="hover:text-red-500 transition-colors"><i className="bx bxl-youtube"></i></a>
           </div>
         </footer>
-
-      </main>
     </div>
   );
 }

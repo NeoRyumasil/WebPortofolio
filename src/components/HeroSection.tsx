@@ -1,28 +1,52 @@
 'use client';
 
+import Image from "next/image";
 import { profileData } from "@/data/content";
 
 export default function HeroSection() {
     return (
-        <div className="flex flex-col items-center justify-center text-center py-20 md:py-32 bg-[#F0F4F8] px-4">
+        
+        <section className="bg-[#F0F4F8] w-full min-h-[80vh] flex items-center justify-between gap-10 md:gap-16">
 
-            {/* Header Section */}
-            <h1 className="text-4xl md:text-6xl text-[#1B2631] font-black mb-6 uppercase tracking-tight">
-                Halo, Saya {profileData.name}
-            </h1>
+            {/* Main Container */}
+            <div className="max-w-7xl mx-auto w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10 md:gap-16">
 
-            {/* Subtitle Section */}
-            <p className="text-lg md:text-xl text-gray-600 max-w-5xl leading-relaxed mb-10">
-                {profileData.desc}
-            </p>
+                {/* Text Container */}
+                <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left z-10">
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl text-[#1B2631] font-black mb-6 uppercase tracking-tight leading-tight">
+                        Halo, Saya <br/>
+                        <span>
+                            {profileData.name}
+                        </span>
+                    </h1>
 
-            {/* Download CV Button */}
-            <button
-                onClick={() => window.open(profileData.cvLink, "_blank")}
-                className="bg-[#3F4E4F] text-white px-6 py-3 rounded-md font-medium hover:bg-[#1B2631] transition-colors duration-300"
-            >
-                Get My CV
-            </button>
-        </div>
+                    <p className="text-base text-justify md:text-lg text-gray-600 leading-relaxed mb-8 max-w-3xl md:max-w-xl lg:max-w-2xl">
+                        {profileData.desc}
+                    </p>
+
+                    <button
+                        onClick={() => window.open(profileData.cvLink, "_blank")}
+                        className="bg-[#3F4E4F] text-white px-8 py-3 rounded-md font-bold hover:bg-[#1B2631] transition-all duration-300 shadow-lg transform hover:-translate-y-1 md:pb-3 lg:pb-3"
+                    >
+                        Get My CV
+                    </button>
+                </div>
+
+                {/* Image Container */}
+                <div className="flex-1 flex justify-center md:justify-end relative w-full">
+
+                    {/* Profile Image */}
+                    <div className="relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] lg:w-[450px] lg:h-[450px]">
+                        <Image
+                            src={profileData.imageSrc}
+                            alt="Profile Image"
+                            fill
+                            priority
+                            className="object-cover rounded-3xl shadow-2xl border-4 border-white relative z-10"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
     )
 }

@@ -23,7 +23,7 @@ export const experienceData = [
     {
         role: "Practicum Assistant",
         place: "Informatics Laboratory Universitas Telkom",
-        duration: "September 2025 - January 2026",
+        duration: "September 2025 - Januari 2026",
         desc: "Membantu mahasiswa dalam mempelajari praktikum struktur data dan algoritma serta memberikan bimbingan teknis selama sesi praktikum."
     },
     {

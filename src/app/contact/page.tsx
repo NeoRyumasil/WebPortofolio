@@ -68,7 +68,7 @@ export default function Contact() {
                             </p>
 
                             
-                            <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 text-5xl space-x-10">
+                            <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 text-5xl space-x-5">
 
                                 {/* Linkedin */}
                                 <a
@@ -89,7 +89,7 @@ export default function Contact() {
                                 {/* Instagram */}
                                 <a
                                     href={contactData[0].instagram} target="_blank"
-                                    className="text-[#1B2631] hover:text-gray-600 hover:scale-125 transition-all duration-300"
+                                    className="text-[#1B2631] hover:text-[#F77737] hover:scale-125 transition-all duration-300"
                                 >
                                     <i className="bx bxl-instagram"></i>
                                 </a>

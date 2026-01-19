@@ -11,7 +11,7 @@ export default function Contact() {
                 <div className="max-w-4xl w-full text-center">
 
                     {/* Title */}
-                    <div className="mb-12 mt-10">
+                    <div className="mb-12 mt-5">
                         <h1 className="text-4xl md:text-5xl font-black text-[#1B2631] mb-6 uppercase tracking-tight">
                             Let's Work Together!
                         </h1>

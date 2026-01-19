@@ -26,7 +26,7 @@ export default function Contact() {
                         {/* Email */}
                         <a
                             href={`mailto:${contactData[0].email || 'alvin.ababil2601@gmail.com'}`}
-                            className="group bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center justify-center gap-4 cursor-pointer py-10"
+                            className="group bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center justify-center gap-4 cursor-pointer py-5"
                         >
                             <div className="w-20 h-20 bg-[#F0F4F8] rounded-full flex items-center justify-center group-hover:bg-[#1B2631] transition-colors duration-300">
                                 <i className="bx bx-envelope text-4xl text-[#1B2631] group-hover:text-white transition-colors duration-300"></i>

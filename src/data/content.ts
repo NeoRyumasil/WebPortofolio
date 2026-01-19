@@ -1,3 +1,5 @@
+import { Facebook } from "lucide-react";
+
 export const profileData = {
     name: "Muhammad Alvin Ababil",
     role: "Mahasiswa S-1 Informatika",
@@ -112,6 +114,12 @@ export const footerData = [
 
 export const contactData = [
     {
-        email: "alvin.ababil2601@gmail.com"
+        email: "alvin.ababil2601@gmail.com",
+        linkedin: "https://www.linkedin.com/in/muhammad-alvin-ababil-7406592a2/",
+        github: "https://github.com/NeoRyumasil",
+        youtube: "https://www.youtube.com/@VinToNep",
+        instagram: "https://www.instagram.com/ababilalvin/",
+        x: "https://x.com/NeoRyumasil",
+        facebook: "https://www.facebook.com/profile.php?id=100080947032408"
     }
 ];

@@ -1,4 +1,6 @@
 import { Inter } from "next/font/google";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 // Fonts
@@ -21,8 +23,16 @@ export default function RootLayout({
         <title>Muhammad Alvin Ababil - Web Portofolio</title>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
       </head>
+      
       <body className={`${interFont.className} bg-[#1B2631] text-[#1B2631] min-h-screen`}>
+        
+        {/* Navigation Bar */}
+        <NavBar />
+
         {children}
+
+        {/* Footer */}
+        <Footer />
       </body>
     </html>
   )

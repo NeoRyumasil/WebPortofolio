@@ -22,9 +22,6 @@ export default function Home() {
   return (
     <div className="min-h-screen py-10 px-4">
 
-        {/* Navigation Bar */}
-        <NavBar />
-
         {/* Hero Section */}
         <HeroSection />
 
@@ -87,16 +84,6 @@ export default function Home() {
             </ul>
           </div>
         </main>
-        
-        {/* Footer */}
-        <footer className="bg-[#1B2631] text-[#F0F4F8] text-center p-10">
-          <p className="text-2xl font-bold mb-2 tracking-wider uppercase">Muhammad Alvin Ababil</p>
-          <div className="flex justify-center space-x-8 text-3xl">
-            <a href={footerData[0].linkedinLink} target="_blank" className="hover:text-blue-500 transition-colors"><i className="bx bxl-linkedin-square"></i></a>
-            <a href={footerData[0].githubLink} target="_blank" className="hover:text-gray-400 transition-colors"><i className="bx bxl-github"></i></a>
-            <a href={footerData[0].youtubeLink} target="_blank" className="hover:text-red-500 transition-colors"><i className="bx bxl-youtube"></i></a>
-          </div>
-        </footer>
     </div>
   );
 }

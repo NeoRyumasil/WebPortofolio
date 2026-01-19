@@ -33,7 +33,7 @@ export default function NavBar() {
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-8 text-sm font-bold text-gray-600 tracking-wider">
                     <li className="hover:text-[#1B2631] cursor-pointer transition-colors">HOME</li>
-                    <li className="hover:text-[#1B2631] cursor-pointer transition-colors">PENDIDIKAN</li>
+                    <li className="hover:text-[#1B2631] cursor-pointer transition-colors">ABOUT</li>
                     <li className="hover:text-[#1B2631] cursor-pointer transition-colors">PORTFOLIO</li>
                     <li className="hover:text-[#1B2631] cursor-pointer transition-colors">CONTACT</li>
                 </ul>
@@ -50,7 +50,7 @@ export default function NavBar() {
             <div className={`md:hidden bg-white border-t transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? 'max-h-64' : 'max-h-0'}`}>
                 <ul className="flex flex-col text-right px-6 py-4 gap-4 text-sm font-bold text-gray-600 tracking-wider">
                     <li className="hover:text-[#1B2631] cursor-pointer" onClick={() => setIsOpen(false)}>HOME</li>
-                    <li className="hover:text-[#1B2631] cursor-pointer" onClick={() => setIsOpen(false)}>PENDIDIKAN</li>
+                    <li className="hover:text-[#1B2631] cursor-pointer" onClick={() => setIsOpen(false)}>ABOUT</li>
                     <li className="hover:text-[#1B2631] cursor-pointer" onClick={() => setIsOpen(false)}>PORTFOLIO</li>
                     <li className="hover:text-[#1B2631] cursor-pointer" onClick={() => setIsOpen(false)}>CONTACT</li>
                 </ul>

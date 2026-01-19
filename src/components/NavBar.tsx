@@ -38,24 +38,16 @@ export default function NavBar() {
                         {/* Dropdown Menu - Desktop */}
                         <ul className="absolute left-1/2 -translate-x-1/2 mt-2 w-64 bg-white shadow-xl rounded-md py-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-gray-100 flex flex-col items-center">
                             <li className="w-full">
-                                <Link href='/portofolio/game_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">
-                                    Games
-                                </Link>
+                                <Link href='/portofolio/game_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">Games</Link>
                             </li>
                             <li className="w-full">
-                                <Link href='/portofolio/web_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">
-                                    Websites
-                                </Link>
+                                <Link href='/portofolio/web_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">Websites</Link>
                             </li>
                             <li className="w-full">
-                                <Link href='/portofolio/ai_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">
-                                    Artficial Intelligences
-                                </Link>
+                                <Link href='/portofolio/ai_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">Artficial Intelligences</Link>
                             </li>
                             <li className="w-full">
-                                <Link href='/portofolio/eo_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">
-                                    Event Organizer
-                                </Link>
+                                <Link href='/portofolio/eo_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">Event Organizer</Link>
                             </li>
                         </ul>
                     </li>

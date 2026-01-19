@@ -109,3 +109,9 @@ export const footerData = [
         youtubeLink: "https://www.youtube.com/@VinToNep"
     }
 ];
+
+export const contactData = [
+    {
+        email: "alvin.ababil2601@gmail.com"
+    }
+];

@@ -49,12 +49,12 @@ export default function NavBar() {
                             </li>
                             <li className="w-full">
                                 <Link href='/portofolio/ai_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">
-                                    AI
+                                    Artficial Intelligences
                                 </Link>
                             </li>
                             <li className="w-full">
                                 <Link href='/portofolio/eo_portofolio' className="block px-6 py-3 hover:bg-gray-100 hover:text-[#1B2631] text-center whitespace-nowrap">
-                                    EO
+                                    Event Organizer
                                 </Link>
                             </li>
                         </ul>
@@ -99,13 +99,13 @@ export default function NavBar() {
                                     <Link href='/portofolio/game_portofolio' className="text-base text-gray-600 hover:text-[#1B2631]" onClick={() => setIsOpen(false)}>Games</Link>
                                 </li>
                                 <li>
-                                    <Link href='/portofolio/web_portofolio' className="text-base text-gray-600 hover:text-[#1B2631]" onClick={() => setIsOpen(false)}>WEBSITES</Link>
+                                    <Link href='/portofolio/web_portofolio' className="text-base text-gray-600 hover:text-[#1B2631]" onClick={() => setIsOpen(false)}>Websites</Link>
                                 </li>
                                 <li>
-                                    <Link href='/portofolio/ai_portofolio' className="text-base text-gray-600 hover:text-[#1B2631]" onClick={() => setIsOpen(false)}>AI</Link>
+                                    <Link href='/portofolio/ai_portofolio' className="text-base text-gray-600 hover:text-[#1B2631]" onClick={() => setIsOpen(false)}>Artificial Intelligences</Link>
                                 </li>
                                 <li>
-                                    <Link href='/portofolio/eo_portofolio' className="text-base text-gray-600 hover:text-[#1B2631]" onClick={() => setIsOpen(false)}>EO</Link>
+                                    <Link href='/portofolio/eo_portofolio' className="text-base text-gray-600 hover:text-[#1B2631]" onClick={() => setIsOpen(false)}>Event Organizer</Link>
                                 </li>
                             </ul>
                         </div>

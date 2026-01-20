@@ -67,7 +67,6 @@ export default function Contact() {
                                 Media Sosial
                             </p>
 
-                            
                             <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 text-5xl space-x-5">
 
                                 {/* Linkedin */}

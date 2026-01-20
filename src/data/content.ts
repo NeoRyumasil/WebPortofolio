@@ -1,5 +1,3 @@
-import { Facebook } from "lucide-react";
-
 export const profileData = {
     name: "Muhammad Alvin Ababil",
     role: "Mahasiswa S-1 Informatika",

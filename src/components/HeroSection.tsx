@@ -23,20 +23,13 @@ export default function HeroSection() {
                     <p className="text-base text-justify md:text-lg text-gray-600 leading-relaxed mb-8 max-w-3xl md:max-w-xl lg:max-w-2xl">
                         {profileData.desc}
                     </p>
-
-                    <button
-                        onClick={() => window.open(profileData.cvLink, "_blank")}
-                        className="bg-[#3F4E4F] text-white px-8 py-3 rounded-md font-bold hover:bg-[#1B2631] transition-all duration-300 shadow-lg transform hover:-translate-y-1 md:pb-3 lg:pb-3"
-                    >
-                        Get My CV
-                    </button>
                 </div>
 
                 {/* Image Container */}
                 <div className="flex-1 flex justify-center md:justify-end relative w-full">
 
                     {/* Profile Image */}
-                    <div className="relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] lg:w-[450px] lg:h-[450px]">
+                    <div className="relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] lg:w-[450px] lg:[450px]">
                         <Image
                             src={profileData.imageSrc}
                             alt="Profile Image"

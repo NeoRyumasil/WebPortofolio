@@ -35,7 +35,7 @@ export default function PortoSlider(){
             {/* Next Button */}
             <button
                 onClick={nextSlide}
-                className="absolute right-4 md:right-10 z-20 text-[#1B26631] hover:text-gray-500 transition-colors cursor-pointer p-2"
+                className="absolute right-4 md:right-10 z-20 text-[#1B2631] hover:text-gray-500 transition-colors cursor-pointer p-2"
             >
                 <i className="bx bx-chevron-right text-6xl md:text-8xl"></i>
             </button>

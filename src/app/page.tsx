@@ -42,8 +42,6 @@ export default function Home() {
                   Contact
               </a>
             </div>
-            
-
         </div>
       </section>
     </main>

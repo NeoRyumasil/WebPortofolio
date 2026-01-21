@@ -131,24 +131,24 @@ export const portoSliderData = [
         title: "Web Portofolio",
         desc: "Kumpulan proyek pengembangan website yang pernah saya kerjakan",
         bgImage: "/Datas/Background/Webdev_bg.png",
-        link: "/web_portofolio"
+        link: "/portofolio/web_portofolio"
     },
     {
         title: "Game Portofolio",
         desc: "Kumpulan proyek pengembangan game yang pernah saya kerjakan",
         bgImage: "/Datas/Background/Gamedev_bg.png",
-        link: "/game_portofolio"
+        link: "/portofolio/game_portofolio"
     },
     {
         title: "Artificial Intelligence Portofolio",
         desc: "Kumpulan proyek machine learning, deep learning, hingga generative AI yang pernah saya kerjakan",
         bgImage: "/Datas/Background/AI_bg.png",
-        link: "/ai_portofolio"
+        link: "/portofolio/ai_portofolio"
     },
     {
         title: "Event Organizer Portofolio",
         desc: "Kumpulan acara yang saya pernah menjadi bagian di dalamnya",
         bgImage: "/Datas/Background/EventOrganizer_bg.png",
-        link: "/eo_portofolio"
+        link: "/portofolio/eo_portofolio"
     }
 ];

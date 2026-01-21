@@ -1,3 +1,7 @@
+import { desc } from "framer-motion/client";
+import { link } from "fs";
+import { title } from "process";
+
 export const profileData = {
     name: "Muhammad Alvin Ababil",
     role: "Mahasiswa S-1 Informatika",
@@ -119,5 +123,32 @@ export const contactData = [
         instagram: "https://www.instagram.com/ababilalvin/",
         x: "https://x.com/NeoRyumasil",
         facebook: "https://www.facebook.com/profile.php?id=100080947032408"
+    }
+];
+
+export const portoSliderData = [
+    {
+        title: "Web Portofolio",
+        desc: "Kumpulan proyek pengembangan website yang pernah saya kerjakan",
+        bgImage: "/Datas/Background/Webdev_bg.png",
+        link: "/web_portofolio"
+    },
+    {
+        title: "Game Portofolio",
+        desc: "Kumpulan proyek pengembangan game yang pernah saya kerjakan",
+        bgImage: "/Datas/Background/Gamedev_bg.png",
+        link: "/game_portofolio"
+    },
+    {
+        title: "Artificial Intelligence Portofolio",
+        desc: "Kumpulan proyek machine learning, deep learning, hingga generative AI yang pernah saya kerjakan",
+        bgImage: "/Datas/Background/AI_bg.png",
+        link: "/ai_portofolio"
+    },
+    {
+        title: "Event Organizer Portofolio",
+        desc: "Kumpulan acara yang saya pernah menjadi bagian di dalamnya",
+        bgImage: "/Datas/Background/EventOrganizer_bg.png",
+        link: "/eo_portofolio"
     }
 ];

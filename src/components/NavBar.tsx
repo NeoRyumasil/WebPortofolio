@@ -31,9 +31,9 @@ export default function NavBar() {
                     
                     {/* Portofolio */}
                     <li className="relative group">
-                        <span className="hover:text-[#1B2631] cursor-pointer transition-colors pb-2">
+                        <a href="/portofolio" className="hover:text-[#1B2631] cursor-pointer transition-colors pb-2">
                             Portofolio   
-                        </span>
+                        </a>
 
                         {/* Dropdown Menu - Desktop */}
                         <ul className="absolute left-1/2 -translate-x-1/2 mt-2 w-64 bg-white shadow-xl rounded-md py-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-gray-100 flex flex-col items-center">

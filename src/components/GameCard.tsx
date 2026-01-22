@@ -9,7 +9,7 @@ interface GameCardProps {
 
 export default function GameCard({ title, imageSrc, link }: GameCardProps) {
     return (
-        <div className="relative w-[250px] h-[150px] rounded-xl overflow-hidden shadow-lg group">
+        <div className="relative w-full max-w-[300px] aspect-video rounded-xl overflow-hidden shadow-lg group">
 
             {/* Game Image */}
             <Image

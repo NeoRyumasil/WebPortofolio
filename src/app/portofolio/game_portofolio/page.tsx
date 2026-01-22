@@ -19,7 +19,7 @@ export default function Games() {
 
             {/* Project Section */}
             <section className="max-w-7xl mx-auto py-16 px-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center md:mb-5">
 
                     {gamePortfolioData.map((game, index) => (
                         <div key={index} className="flex flex-col items-center">

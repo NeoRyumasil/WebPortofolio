@@ -12,8 +12,8 @@ export default function Home() {
             {/* Text Container */}
             <div className="flex flex-col items-center justify-center max-w-4xl">
               <h1 className="text-4xl md:text-5xl lg:text-7xl text-[#1B2631] font-black mb-6 uppercase tracking-tight leading-tight">
-                Web Portofolio <br/>
-                <span className="text-blue-600">
+                Portofolio <br/>
+                <span>
                     {profileData.name}
                 </span>
               </h1>

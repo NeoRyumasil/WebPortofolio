@@ -100,6 +100,30 @@ export const gamePortfolioData = [
     }
 ];
 
+export const webPortofolioData = [
+    {
+        title: "On Progress",
+        imageSrc: "/Datas/Backgrounds/Webdev_bg.png",
+        link : "/"
+    }
+];
+
+export const aiPortofolioData = [
+    {
+        title: "On Progress",
+        imageSrc: "/Datas/Backgrounds/Ai_bg.png",
+        link : "/"
+    }
+];
+
+export const eoPortofolioData = [
+    {
+        title: "On Progress",
+        imageSrc: "/Datas/Backgrounds/EventOrganizer_bg.png",
+        link : "/"
+    }
+];
+
 export const achievementsData = [
     "Finalis Competitive Programming ADIKARA Tahun 2024.",
     "Pemegang Beasiswa OPES dari SMK Telkom Banjarbaru.",

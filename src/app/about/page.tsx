@@ -52,11 +52,22 @@ export default function About() {
           <SectionTitle icon="💼" title="Pengalaman" />
           {experienceData.map((exp, index) => (
             <InfoCard key={index}>
-              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                <h4 className="font-bold text-lg text-[#1B2631] max-w-xl">{exp.role}, {exp.place}</h4>
-                <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">{exp.duration}</span>
+              <div className="flex justify-between items-start gap-4 mb-3">
+                <div className="flex-1">
+                  <h4 className=" font-bold text-lg md:text-xl text-[#1B2631] leading-tight">
+                    {exp.role}
+                  </h4>
+                  <p className="text-sm text-[#1B2631] font-semibold mb-2">
+                    {exp.place}
+                  </p>
+                </div>
+                  <span className="shrink-0 text-[9px] md:text-[11px] font-bold uppercase tracking-tight text-gray-500 bg-gray-50 px-2 py-1 rounded border border-gray-100 shadow-sm">
+                    {exp.duration}
+                  </span>
               </div>
-              <p className="text-gray-800">{exp.desc}</p>
+              <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                 {exp.desc}
+              </p>
             </InfoCard>
           ))}
       

@@ -13,7 +13,7 @@ export default function Contact() {
                     {/* Title */}
                     <div className="mb-12 mt-5">
                         <h1 className="text-4xl md:text-5xl font-black text-[#1B2631] mb-6 uppercase tracking-tight">
-                            Hubungi Saya
+                            Kontak Saya
                         </h1>
                         <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
                             Lagi cari partner buat project atau sekadar mau tanya-tanya? Langsung hubungi saya saja ya!

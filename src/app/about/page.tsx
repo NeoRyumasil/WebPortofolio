@@ -21,7 +21,7 @@ export default function About() {
       
       {/* Timeline */}
       <div className="absolute -left-2.5 top-1 w-4 h-4 rounded-full bg-white border-4 border-[#1B2631] group-hover:scale-125 transition-transform" />
-      <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-100 transition-all duration-300">
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-100 transition-all duration-300 text-justify max-w-3xl">
         {children}
       </div>
     </div>

@@ -46,7 +46,7 @@ export default function About() {
                   <h4 className=" font-bold text-lg md:text-xl text-[#1B2631] leading-tight">
                     {edu.title}
                   </h4>
-                  <p className="text-lg md:text-bases text-[#1B2631] font-bold mb-2">
+                  <p className="text-lg md:text-base text-[#1B2631] font-bold mb-2">
                     {edu.institution}
                   </p>
                 </div>

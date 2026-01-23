@@ -6,15 +6,24 @@ export default function About() {
 
   // Judul
   const SectionTitle = ({ icon, title }: { icon: string; title: string }) => (
-    <h3 className="flex items-center text-2xl font-bold mb-5 mt-10 text-[#1B2631]">
-      <span className="mr-2">{icon}</span> {title}
-    </h3>
-  )
+    <div className="flex items-center gap-3 mb-8 mt-16">
+      <span className="text-3xl">{icon}</span>
+      <h3 className="text-2xl font-extrabold text-[#1B2631] tracking-tight">
+        {title}
+      </h3>
+      <div className="flex-1 h-0.5 bg-gray-200 ml-4 rounded-full"/>
+    </div> 
+  );
 
   // Info Card
   const InfoCard = ({children}: {children: React.ReactNode}) => (
-    <div className="bg-[#D9E4E0] p-4 rounded-lg mb-4 shadow-sm text-justify">
-      {children}
+    <div className="group relative pl-8 pb-10 border-l-2 border-gray-200 last:border-0 last:pb-0 ml-4">
+      
+      {/* Timeline */}
+      <div className="absolute -left-2.5 top-1 w-4 h-4 rounded-full bg-white border-4 border-[#1B2631] group-hover:scale-125 transition-transform" />
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-100 transition-all duration-300">
+        {children}
+      </div>
     </div>
   )
 

@@ -41,9 +41,19 @@ export default function About() {
           <div className="space-y-4">
             {educationData.map((edu, index) => (
             <InfoCard key={index}>
-              <h4 className="font-bold text-lg text-[#1B2631]">{edu.title}</h4>
-              <p className="text-sm text-gray-700">{edu.institution}</p>
-              <p className="text-xs font-medium text-gray-600">{edu.year}</p>
+              <div className="flex justify-between items-start gap-4 mb-3">
+                <div className="flex-1">
+                  <h4 className=" font-bold text-lg md:text-xl text-[#1B2631] leading-tight">
+                    {edu.title}
+                  </h4>
+                  <p className="text-lg md:text-sm  text-[#1B2631] font-bold mb-2">
+                    {edu.institution}
+                  </p>
+                </div>
+                  <span className="shrink-0 text-[10px] md:text-[12px] font-bold uppercase tracking-tight text-gray-500 bg-gray-50 px-2 py-1 rounded border border-gray-100 shadow-sm">
+                    {edu.year}
+                  </span>
+              </div>
             </InfoCard>
           ))}
           </div>
@@ -57,11 +67,11 @@ export default function About() {
                   <h4 className=" font-bold text-lg md:text-xl text-[#1B2631] leading-tight">
                     {exp.role}
                   </h4>
-                  <p className="text-sm text-[#1B2631] font-semibold mb-2">
+                  <p className="text-lg md:text-xl text-[#1B2631] font-bold mb-2">
                     {exp.place}
                   </p>
                 </div>
-                  <span className="shrink-0 text-[9px] md:text-[11px] font-bold uppercase tracking-tight text-gray-500 bg-gray-50 px-2 py-1 rounded border border-gray-100 shadow-sm">
+                  <span className="shrink-0 text-[10px] md:text-[12px] font-bold uppercase tracking-tight text-gray-500 bg-gray-50 px-2 py-1 rounded border border-gray-100 shadow-sm">
                     {exp.duration}
                   </span>
               </div>
@@ -74,12 +84,23 @@ export default function About() {
           {/* Organization Section */}
           <SectionTitle icon="👥" title="Organisasi" />
           {organizationData.map((org, index) => (
-            <InfoCard key={index}>
-              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                <h4 className="font-bold text-lg text-[#1B2631] max-w-2xl">{org.role}, {org.organization}</h4>
-                <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">{org.duration}</span>
+           <InfoCard key={index}>
+              <div className="flex justify-between items-start gap-4 mb-3">
+                <div className="flex-1">
+                  <h4 className=" font-bold text-lg md:text-xl text-[#1B2631] leading-tight">
+                    {org.role}
+                  </h4>
+                  <p className="text-lg md:text-xl text-[#1B2631] font-bold mb-2">
+                    {org.organization}
+                  </p>
+                </div>
+                  <span className="shrink-0 text-[10px] md:text-[12px] font-bold uppercase tracking-tight text-gray-500 bg-gray-50 px-2 py-1 rounded border border-gray-100 shadow-sm">
+                    {org.duration}
+                  </span>
               </div>
-              <p className="text-gray-700 leading-relaxed">{org.desc}</p>
+              <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                 {org.desc}
+              </p>
             </InfoCard>
           ))}
       

@@ -1,7 +1,3 @@
-import { desc } from "framer-motion/client";
-import { link } from "fs";
-import { title } from "process";
-
 export const profileData = {
     name: "Muhammad Alvin Ababil",
     role: "Mahasiswa S-1 Informatika",
@@ -12,7 +8,7 @@ export const profileData = {
 
 export const educationData = [
     {
-        title: "Mahasiswa S-1 Informatika",
+        title: "S-1 Informatika",
         institution: "Fakultas Informatika, Universitas Telkom",
         year: "2023 - Sekarang"
     },

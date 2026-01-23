@@ -43,7 +43,7 @@ export default function About() {
             <InfoCard key={index}>
               <div className="flex justify-between items-start gap-4 mb-3">
                 <div className="flex-1">
-                  <h4 className=" font-bold text-lg md:text-xl text-[#1B2631] leading-tight">
+                  <h4 className=" font-bold text-lg md:text-base text-[#1B2631] leading-tight">
                     {edu.title}
                   </h4>
                   <p className="text-lg md:text-base text-[#1B2631] font-bold mb-2">
@@ -64,10 +64,10 @@ export default function About() {
             <InfoCard key={index}>
               <div className="flex justify-between items-start gap-4 mb-3">
                 <div className="flex-1">
-                  <h4 className=" font-bold text-lg md:text-xl text-[#1B2631] leading-tight">
+                  <h4 className=" font-bold text-lg md:text-base text-[#1B2631] leading-tight">
                     {exp.role}
                   </h4>
-                  <p className="text-sm md:text-base text-[#1B2631] font-bold mb-2">
+                  <p className="text-sm md:text-xs text-[#1B2631] font-bold mb-2">
                     {exp.place}
                   </p>
                 </div>
@@ -87,10 +87,10 @@ export default function About() {
            <InfoCard key={index}>
               <div className="flex justify-between items-start gap-4 mb-3">
                 <div className="flex-1">
-                  <h4 className=" font-bold text-lg md:text-xl text-[#1B2631] leading-tight">
+                  <h4 className=" font-bold text-lg md:text-base text-[#1B2631] leading-tight">
                     {org.role}
                   </h4>
-                  <p className="text-sm md:text-base text-[#1B2631] font-bold mb-2">
+                  <p className="text-sm md:text-xs text-[#1B2631] font-bold mb-2">
                     {org.organization}
                   </p>
                 </div>

@@ -1,5 +1,5 @@
 import { gamePortfolioData } from "@/data/content";
-import GameCard from "@/components/GameCard";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function Games() {
     return (
@@ -23,20 +23,17 @@ export default function Games() {
 
                     {gamePortfolioData.map((game, index) => (
                         <div key={index} className="flex flex-col items-center">
-                            <GameCard
+                            <ProjectCard
+                                key={index}
                                 title={game.title}
                                 imageSrc={game.imageSrc}
+                                desc={game.desc}
                                 link={game.link}
+                                stack={game.stack}
+                                category="game"
                             />
                         </div>
                     ))}
-
-                    {gamePortfolioData.length == 0 && (
-                        <div>
-                            <p>Projek Belum Ditambahkan</p>
-                        </div>
-                    )}
-
                 </div>
             </section>
 

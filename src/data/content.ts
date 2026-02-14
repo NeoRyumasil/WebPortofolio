@@ -80,22 +80,19 @@ export const gamePortfolioData = [
     {
         title: "Acumalaka Adventure",
         imageSrc: "/Datas/GameCards/Acumalaka.png",
-        link: "https://neoryumasil.itch.io/acumalaka-adventure"
+        desc: "Acumalaka Adventure adalah game yang pertama kali saya kembangkan, berupa game platformer 2D.",
+        link: "https://neoryumasil.itch.io/acumalaka-adventure",
+        stack: ["C#", "Unity Engine"],
+        category: "game"
     },
     {
         title: "Tower Bloxx",
         imageSrc: "/Datas/GameCards/TowerBloxx.png",
-        link: "https://neoryumasil.itch.io/towerbloxx"
-    },
-    {
-        title: "Aku Butuh Dugem : Most Horeg",
-        imageSrc: "/Datas/GameCards/AkuButuhDugemMostHoreg.png",
-        link: "https://neoryumasil.itch.io/aku-butuh-dugem-most-horeg"
-    },
-    {
-        title: "Splitted Realms",
-        imageSrc: "/Datas/GameCards/SplittedRealms.png",
-        link: "https://veromator.itch.io/splitet"
+        desc: "Tower Bloxx adalah game block stacking dimana pemain harus menumpuk balok-balok untuk membangun sebuah gedung setinggi mungkin.",
+        link: "https://neoryumasil.itch.io/towerbloxx",
+        stack: ["GDScript", "Godot Engine"],
+        category: "game"
+
     }
 ];
 
@@ -103,7 +100,10 @@ export const webPortofolioData = [
     {
         title: "On Progress",
         imageSrc: "/Datas/Backgrounds/Webdev_bg.png",
-        link : "/"
+        desc: "On Progress",
+        link : "/",
+        stack: [],
+        category: "web"
     }
 ];
 
@@ -111,7 +111,10 @@ export const aiPortofolioData = [
     {
         title: "On Progress",
         imageSrc: "/Datas/Backgrounds/Ai_bg.png",
-        link : "/"
+        desc: "On Progress",
+        link : "/",
+        stack: [],
+        category: "ai"
     }
 ];
 
@@ -119,7 +122,10 @@ export const eoPortofolioData = [
     {
         title: "On Progress",
         imageSrc: "/Datas/Backgrounds/EventOrganizer_bg.png",
-        link : "/"
+        desc: "On Progress",
+        link : "/",
+        stack: [],
+        category: "eo"
     }
 ];
 

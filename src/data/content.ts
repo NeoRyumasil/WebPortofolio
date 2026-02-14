@@ -98,11 +98,11 @@ export const gamePortfolioData = [
 
 export const webPortofolioData = [
     {
-        title: "On Progress",
-        imageSrc: "/Datas/Backgrounds/Webdev_bg.png",
-        desc: "On Progress",
-        link : "/",
-        stack: [],
+        title: "MoneyTime",
+        imageSrc: "/Datas/WebCards/MoneyTime.png",
+        desc: "MoneyTime adalah aplikasi manajemen waktu dan keuangan. Dalam aplikasi ini pengguna dapat memanajemen waktu mereka seperti, penjadwalan, hingga perhitungan waktu. Pengguna juga dapat memanajemen keuangan mereka, seperti mencatat pemasukkan atau pengeluaran sehari-hari dan perhitungan budget keuangan. Terdapat Juga fitur asisten AI yang dapat memberikan rekomendasi manajemen waktu dan keuangan berdasarkan data pengguna.",
+        link : "https://moneytime-one.vercel.app",
+        stack: ["Flask", "HTML", "CSS", "JavaScript", "PostgreSQL", "Groq"],
         category: "web"
     }
 ];

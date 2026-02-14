@@ -9,6 +9,9 @@ export default function Footer() {
             <a href={footerData[0].githubLink} target="_blank" className="hover:text-gray-400 transition-colors"><i className="bx bxl-github"></i></a>
             <a href={footerData[0].youtubeLink} target="_blank" className="hover:text-red-500 transition-colors"><i className="bx bxl-youtube"></i></a>
           </div>
+          <div className="items-center justify-center text-center text-[#F0F4F8] p-10">
+            <p className="text-sm font-bold">&copy; 2025 Muhammad Alvin Ababil</p>
+          </div>
         </footer>
     );
 }

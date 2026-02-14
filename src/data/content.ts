@@ -104,6 +104,14 @@ export const webPortofolioData = [
         link : "https://moneytime-one.vercel.app",
         stack: ["Flask", "HTML", "CSS", "JavaScript", "PostgreSQL", "Groq"],
         category: "web"
+    },
+    {
+        title: "Website Portofolio",
+        imageSrc: "/Datas/WebCards/WebPortofolio.png",
+        desc: "Website portofolio saya.",
+        link : "https://web-portofolio-sable-iota.vercel.app",
+        stack: ["Next.js", "Tailwind CSS"],
+        category: "web"
     }
 ];
 

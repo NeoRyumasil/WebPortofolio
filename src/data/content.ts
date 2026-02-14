@@ -1,3 +1,6 @@
+import { desc } from "framer-motion/client";
+import { title } from "process";
+
 export const profileData = {
     name: "Muhammad Alvin Ababil",
     role: "Mahasiswa S-1 Informatika",
@@ -172,3 +175,41 @@ export const portoSliderData = [
         link: "/portofolio/eo_portofolio"
     }
 ];
+
+export const expertiseData = [
+    {
+        id: "gamedev",
+        icon: "gamepad",
+        title: "Game Programming",
+        desc: "Saya membuat game sederhana menggunakan berbagai game engine dan framework, mulai dari game 2D hingga 3D.",
+        stack: ["C#, GDScript, Unity, Godot, Renpy"]
+    },
+    {
+        id: "webdev",
+        icon: "server",
+        title: "Back End Development",
+        desc: "Saya membuat backend aplikasi menggunakan berbagai bahasa pemrograman dan framework.",
+        stack: ["NextJS, Flask"]
+    },
+    {
+        id: "machinelearning",
+        icon: "cpu",
+        title: "Machine Learning",
+        desc: "Saya membuat model machine learning untuk berbagai keperluan, mulai dari klasifikasi hingga regresi.",
+        stack: ["Python, Scikit-Learn"]
+    },
+    {
+        id: "database",
+        icon: "database",
+        title: "Database Engineering",
+        desc: "Saya mengelola dan merancang database untuk berbagai aplikasi, mulai dari desain hingga implementasi.",
+        stack: ["MySQL, PostgreSQL"]
+    },
+    {
+        id: "eventorganizer",
+        icon: "calendar",
+        title: "Event Organizer",
+        desc: "Saya memiliki pengalaman dalam merencanakan, mengorganisir, dan melaksanakan berbagai acara, mulai dari acara kecil hingga besar.",
+        stack: ["Project Management, Communication, Leadership"]
+    }
+]

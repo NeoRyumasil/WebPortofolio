@@ -79,7 +79,7 @@ export default function About() {
               <div className="p-3 bg-[#1B2631] text-white rounded-lg shadow-md">
                 {iconMap(activeTab.icon)}
               </div>
-              <h3 className="text-2xl font-extrabold text=[#1B2631] uppercase tracking-tight">
+              <h3 className="text-2xl font-extrabold text-[#1B2631] uppercase tracking-tight">
                 {activeTab.title}
               </h3>
             </div>

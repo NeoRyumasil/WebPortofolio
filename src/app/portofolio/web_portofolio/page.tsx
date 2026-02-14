@@ -1,5 +1,5 @@
 import { webPortofolioData } from "@/data/content";
-import WebCard from "@/components/WebCard";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function Websites() {
     return (
@@ -23,19 +23,17 @@ export default function Websites() {
 
                     {webPortofolioData.map((web, index) => (
                         <div key={index} className="flex flex-col items-center">
-                            <WebCard
+                            <ProjectCard
+                                key={index}
                                 title={web.title}
                                 imageSrc={web.imageSrc}
-                                link={web.link}
+                                desc={web.desc}
+                                stack={web.stack}
+                                link={web.link} 
+                                category="web"
                             />
                         </div>
                     ))}
-
-                    {webPortofolioData.length == 0 && (
-                        <div>
-                            <p>Projek Belum Ditambahkan</p>
-                        </div>
-                    )}
                 </div>
             </section>
         </main>

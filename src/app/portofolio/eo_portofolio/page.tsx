@@ -1,5 +1,5 @@
 import { eoPortofolioData } from "@/data/content";
-import EOCard from "@/components/EOCard";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function EventOrganizer() {
     return (
@@ -23,19 +23,17 @@ export default function EventOrganizer() {
 
                     {eoPortofolioData.map((eo, index) => (
                         <div key={index} className="flex flex-col items-center">
-                            <EOCard
+                            <ProjectCard
+                                key={index}
                                 title={eo.title}
                                 imageSrc={eo.imageSrc}
+                                desc={eo.desc}
                                 link={eo.link}
+                                stack={eo.stack}
+                                category="eo"
                             />
                         </div>
                     ))}
-
-                    {eoPortofolioData.length == 0 && (
-                        <div>
-                            <p>Projek Belum Ditambahkan</p>
-                        </div>
-                    )}
                 </div>
             </section>
         </main>

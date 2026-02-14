@@ -1,5 +1,5 @@
 import { aiPortofolioData } from "@/data/content";
-import AICard from "@/components/AICard";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function ArtificialIntelligence() {
     return (
@@ -23,19 +23,17 @@ export default function ArtificialIntelligence() {
 
                     {aiPortofolioData.map((ai, index) => (
                         <div key={index} className="flex flex-col items-center">
-                            <AICard
+                            <ProjectCard
+                                key={index}
                                 title={ai.title}
                                 imageSrc={ai.imageSrc}
+                                desc={ai.desc}
                                 link={ai.link}
+                                stack={ai.stack}
+                                category="ai"
                             />
                         </div>
                     ))}
-
-                    {aiPortofolioData.length == 0 && (
-                        <div>
-                            <p>Projek Belum Ditambahkan</p>
-                        </div>
-                    )}
                 </div>
             </section>
         </main>

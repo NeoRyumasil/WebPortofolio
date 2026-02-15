@@ -128,11 +128,27 @@ export const aiPortofolioData = [
 
 export const eoPortofolioData = [
     {
-        title: "On Progress",
-        imageSrc: "/Datas/Backgrounds/EventOrganizer_bg.png",
-        desc: "On Progress",
-        link : "/",
-        stack: [],
+        title: "Panitia Ramadhan dan Idul Adha 1446H",
+        imageSrc: "/Datas/EoCards/PRADA1446.png",
+        desc: "Saya menjadi bagian dari panitia Ramadhan dan Idul Adha 1446H yang diselenggarakan oleh Universitas Telkom. Dalam acara ini saya bertanggung jawab dalam pelayanan jamaah.",
+        link : "https://drive.google.com/file/d/11GjA0oAM9I8vI8WdVDgXj2xBh5fPPOc1/view?usp=drive_link",
+        stack: ["2024 | 2025"],
+        category: "eo"
+    },
+    {
+        title: "Nihon No Matsuri 16",
+        imageSrc: "/Datas/EoCards/NNM16.png",
+        desc: "Nihon no Matsuri adalah event jejepangan tahunan yang diselanggarakan oleh UKM Nippon Bunka Bu acaranya meliputi Goes To School, Omikoshi, dan Main Event. Saya menjadi bagian dari panitia acara yang bertanggung jawab dalam pembuatan konsep exhibition acara, koordinator lapangan, dan liason officer.",
+        link : "https://www.instagram.com/p/DK-8t4_S59k/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        stack: ["2025"],
+        category: "eo"
+    },
+    {
+        title: "Nihon No Matsuri 17",
+        imageSrc: "/Datas/EoCards/NNM17.png",
+        desc: "Nihon no Matsuri adalah event jejepangan tahunan yang diselanggarakan oleh UKM Nippon Bunka Bu acaranya meliputi Goes To School, Webinar, Omikoshi, dan Main Event. Saya menjadi Commanding Officer Sekretaris inti yang bertanggung jawab dalam pengelolaan administrasi acara.",
+        link : "https://www.instagram.com/nihonnomatsuri",
+        stack: ["2026"],
         category: "eo"
     }
 ];

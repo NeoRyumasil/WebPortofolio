@@ -46,7 +46,7 @@ export default function ProjectCard({ title, imageSrc, desc, link, stack, catego
                 </h3>
                 
                 {/* Description */}
-                <p className="text-sm text-gray-600 leading-relaxed mb-6 line-clamp-7">
+                <p className="text-sm text-gray-600 leading-relaxed mb-6 line-clamp-7 text-justify">
                     {desc}
                 </p>    
 

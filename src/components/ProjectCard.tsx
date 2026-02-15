@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ title, imageSrc, desc, link, stack, category }: ProjectCardProps) {
     return (
-        <div className="group relative w-[500px] bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 transition-all duration-300 hover:shadow-xl hover:translate-y-1">
+        <div className="group relative w-[500px] h-[300px] bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 transition-all duration-300 hover:shadow-xl hover:translate-y-1">
 
             {/* Image */}
             <div className="relative w-full h-[180px] overflow-hidden bg-gray-100">

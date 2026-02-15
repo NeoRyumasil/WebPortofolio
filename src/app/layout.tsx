@@ -22,6 +22,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Muhammad Alvin Ababil - Web Portofolio</title>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
+        <link rel="icon" href="/Datas/Logo.png" type="image/png" />
       </head>
       
       <body className={`${interFont.className} bg-[#1B2631] text-[#1B2631] min-h-screen`}>

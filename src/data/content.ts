@@ -51,12 +51,6 @@ export const organizationData = [
         desc: "Advanced Software Engineering Laboratory adalah salah satu laboratorium fakultas informatika Universitas Telkom yang berfokus pada pengembangan perangkat lunak dan juga pengembagan game. Saya berperan sebagai game designer dan game programmer, dimana saya bertanggung jawab dalam mendesign game (world building dan user experience) dan melakukan pemrograman game menggunakan game engine seperti Godot dan Unity." 
     },
     {
-        role: "Sekretaris Divisi Event Organizer (Nihon No Matsuri)",
-        organization: "Nippon Bunka-Bu",
-        duration: "2024 - Sekarang",
-        desc: "Nippon Bunka Bu merupakan unit kegiatan mahasiswa yang berfokus pada budaya Jejepangan. Saya menjadi sekretaris divisi Nihon no Matsuri Event Organizer yang mengorganisir acara budaya Jepang tahunan di Universitas Telkom, termasuk perencanaan, koordinasi, dan pelaksanaan acara."
-    },
-    {
         role: "Member Divisi Machine Learning",
         organization: "Google Developer on Campus Universitas Telkom",
         duration: "2024 - 2025",

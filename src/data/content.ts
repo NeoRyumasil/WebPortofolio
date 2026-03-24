@@ -112,7 +112,7 @@ export const webPortofolioData = [
 export const aiPortofolioData = [
     {
         title: "AURA: Advanced Universal Responsive Avatar",
-        imageSrc: "/Datas/AICard/ASE.png",
+        imageSrc: "/Datas/AICards/ASE.png",
         desc: "AURA is a state-of-the-art 3D/2.5D AI Companion designed for real-time interaction. It combines low-latency voice communication, semantic document memory (RAG), and expressive emotional animation via VTube Studio.",
         link : "https://github.com/F201/Project_AURA",
         stack: ["Python", "React", "Vite", "Tailwind CSS", "PostGreSQL"],

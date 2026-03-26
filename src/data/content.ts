@@ -96,7 +96,7 @@ export const webPortofolioData = [
         imageSrc: "/Datas/WebCards/MoneyTime.png",
         desc: "MoneyTime adalah aplikasi manajemen waktu dan keuangan. Dalam aplikasi ini pengguna dapat memanajemen waktu mereka seperti, penjadwalan, hingga perhitungan waktu. Pengguna juga dapat memanajemen keuangan mereka, seperti mencatat pemasukkan atau pengeluaran sehari-hari dan perhitungan budget keuangan. Terdapat Juga fitur asisten AI yang dapat memberikan rekomendasi manajemen waktu dan keuangan berdasarkan data pengguna.",
         link : "https://moneytime-one.vercel.app",
-        stack: ["Flask", "HTML", "CSS", "JavaScript", "PostGreSQL", "Groq"],
+        stack: ["Flask", "HTML", "CSS", "JavaScript"],
         category: "web"
     },
     {
@@ -115,7 +115,7 @@ export const aiPortofolioData = [
         imageSrc: "/Datas/AICards/ASE.png",
         desc: "AURA is a state-of-the-art 3D/2.5D AI Companion designed for real-time interaction. It combines low-latency voice communication, semantic document memory (RAG), and expressive emotional animation via VTube Studio.",
         link : "https://github.com/F201/Project_AURA",
-        stack: ["Python", "React", "Vite", "Tailwind CSS", "PostGreSQL"],
+        stack: ["Ai Assistant", "Chabot", "Live2D"],
         category: "ai"
     }
 ];
